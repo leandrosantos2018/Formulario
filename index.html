@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="/css/estilo.css">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<!--script type="text/javascript" ></script>-->
+	<script src="/js/validação.js"></script>
+</head>
+<body>
+	<nav> 
+		<ul>
+			<a href="index.html"> <li>Home</li></a>
+		</ul>
+		
+		
+	</nav>
+  <div id="principal"class="centralizar">
+	<form class="centralizar" name="form1"action="exemplo.php" method="post" >
+		
+		<h1>
+		<img src="/img/icone.png" alt="">	Formulário
+		</h1>
+
+			<strong><label name="nome">Nome </label>	</strong>	
+			<input type="text" name="nome" minlength="15" size="42" maxlength="50"> <br><br>
+		
+			<strong><label name="email">E-mail</label></strong>
+			<input type="email" name="email" size="30" minlength="15" maxlength="40"> <br><br>
+			
+			<strong><label name="data nascimento">Data de Nascimento</label></strong>
+			<input type="date" name="datanascimento" id="dtnascimento"> <br> <br>
+			
+			<strong><label name="sexo">Sexo</label> </strong>
+			<strong>
+				<input type="radio" name="sexo" value="Masculino" checked> <strong> Masculino </strong>
+			<input type="radio" name="sexo" value="Feminino"> <strong>Femnino</strong> <br><br>
+			</strong>
+			
+		<strong><label name="Estado Civil" >Estado Civil</label>
+		
+			<select name="EstadoCivil" id="">
+				<option value="">Selecione</option>
+				<option value="Solteiro">Solteiro</option>
+				<option value="Casado">Casado</option>
+				<option value="Separado">Separado</option>
+				<option value="Viúvo">Viúvo</option>
+			</select> <br><br>
+		</strong>	
+			
+			<strong>
+				<label name="areadeinteresse">Área de Interesse</label> <br><br>
+			<input type="checkbox" name="areadeinteresse" id=""value="Analise"> Ánalise
+			<input type="checkbox" name="areadeinteresse" id="" value="BancodeDados"> Banco de Dados
+			<input type="checkbox" name="areadeinteresse" id="" value="Desenvolvimento"> Desenvolvimento <br> <br>
+			<input type="checkbox" name="areadeinteresse" value="EngenhariadeSoftware">Engenharia de Software
+			<input type="checkbox" name="areadeinteresse " value="Rededecomputadores"> Rede de Computadores <br><br>
+			
+			</strong>
+			
+			<input type="submit"  onclick="return Validar()" id="validar" value="Enviar	" >
+			
+		
+	 </form>
+  </div>
+ 
+</body>
+</html>

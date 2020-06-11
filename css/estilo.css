@@ -1,0 +1,94 @@
+
+#nome{
+	width: 50px;
+}
+body{
+	background-color: #eee5e56b;
+	background-image: url("../img/fundojpg.jpg")   ;
+	width: 100%;
+	height: auto;
+	}
+/*
+#fundo{
+	background-image: url("../trabalho/img/fundojpg.jpg");
+	height: 20px;
+	width: 20px;
+}
+
+*/
+input{
+	border-radius: 5px;
+	
+}
+input:hover{
+	border-color: rgb(41, 41, 253);
+}
+#validar{
+	background-color: rgb(73, 133, 88);
+	color:white;
+}
+
+#validar:hover{
+	background-color: rgb(106, 158, 37);
+	border-color: rgb(41, 41, 253);
+	color:white;
+}
+
+
+form{
+	/*background-image: url("../img/transferir.jpg");*/
+	align-content: center;
+	scroll-snap-align: center;
+	padding: 10px;
+	margin: 10px;
+	/*background-color: #eee5e56b;*/
+	background-color: #ffffff;
+	width: 390px;
+	height: 460px;
+	border-radius: 8px;
+	display:flexbox;
+	position: relative; 
+	font-style:arial black;
+}
+@media(	max-width: 1700px){
+
+
+}
+
+
+/*body.center-form {
+    min-height: 100vh;
+  }
+
+  div.center-form {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  div.center-form > form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  */
+
+  .centralizar{
+	  margin: 0 auto;
+	  
+	  }
+nav{
+	width: 100%;
+	height: 30px;
+	background-color:#eee5e56b;
+	border-radius: 8px;
+	margin-bottom: 5px;
+	color:white;
+	align-content: space-between;
+}
+img{
+	width: 60px;
+	height: 60px;
+
+}
